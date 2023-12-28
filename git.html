@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="github-logo2.jpg .png">
+    <title>Sign in to github-github</title>
+    <style>
+        * {
+            background-color: #000000;
+        }
+
+        #logo {
+            height: 70px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 10px;
+            
+        }
+
+        #heading {
+            color: #f0f8ff;
+            text-align: center;
+            font-family: system-ui;
+            font-size: 14px;
+        }
+
+        #outermain {
+            height: 220px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        #main {
+            height: 220px;
+            width: 310px;
+            background-color: #161b22;
+            border: 0.1px solid #ffffff24;
+            border-radius: 6px;
+        }
+        form{
+            background-color: #161b22;
+        }
+        label{
+            margin-top: 12px;
+            background-color: #161b22;
+            color: aliceblue;
+            display: block;
+            padding-bottom: 10px;
+            padding-left: 18px;
+        }
+        input[type="email"]{
+            background-color: #0D1117;
+            border: 0.1px solid #ffffff24;
+            border-radius: 4px;
+            width: 265px;
+            height: 25px;
+            margin-left: 18px;
+            color: gold;
+        }
+        
+        
+        input[type="password"]{
+            background-color: #0D1117;
+            border: 0.1px solid #ffffff24;
+            border-radius: 4px;
+            width: 265px;
+            height: 25px;
+            margin-left: 18px;
+            color: gold;
+        }
+        input:hover{
+            border: 1px solid gray;
+        }
+        input[type="submit"]{
+            color: aliceblue;
+            background-color: #238638;
+            margin-left: 18px;
+            margin-top: 20px;
+            width: 270px;
+            height: 38px;
+            font-size: 14px;
+            border-radius: 10px;
+            border: 0px solid #0D1117;
+        }
+        input[type="submit"]:hover{
+            background-color: rgb(171, 152, 40);
+        }
+
+        #mid{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 30px;
+            
+        }
+        .mid{
+            width: 310px;
+            border: 0.1px solid #ffffff24;
+            border-radius: 6px;
+            /* padding: 15px 20px 15px 20px; */
+            text-align: center;
+            padding: 20px 2px 20px 2px;
+        }
+       
+        #mid > .mid{
+            color: white;
+        }
+        .mid>a{
+            color: blue;
+            text-decoration: none;
+        }
+        .mid>a:hover{
+            text-decoration: underline;
+        }
+
+        #last{
+            margin-top: 70px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+        .last>a{
+            text-decoration: none;
+            color: blue;
+            padding: 5px;
+            font-size: 15px;
+        }
+        .last>a:hover{
+            text-decoration: underline;
+           
+        }
+        .last > #contact{
+            color: white;
+        }
+        .last > #contact:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+
+        
+        
+    </style>
+</head>
+
+<body>
+    <div id="logo">
+        <img src="github-logo2.jpg .png" alt="logo">
+    </div>
+
+    <div id="heading">
+        <h1>Sign to GitHub</h1>
+    </div>
+
+    <div id="outermain">
+        <div id="main">
+
+            <form action="/abc">
+                <label for="email">Username or email address</label>
+                <input type="email" name="email" id="email">
+
+                <label for="pass">Password</label>
+                <input type="password" name="password" id="pass">
+
+                <input type="submit" value="Sign in">
+            </form>
+
+        </div>
+    </div>
+    <div id="mid">
+        <div class="mid">New to GitHub? <a href="">Create an account.</a> </div>
+        </div>
+
+        <div id="last">
+            <div class="last">
+                <a href="">Terms</a>
+                <a href="">Privacy</a>
+                <a href="">Security</a>
+                <a href="" id="contact">Contact GitHub</a></div>
+        </div>
+</body>
+
+</html>
